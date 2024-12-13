@@ -56,10 +56,9 @@ img {
 .nav-column {
   position: fixed;
   top: 0;
-
   right: -110%;
   height: 100vh;
-  width: 200px;
+  width: 210px;
   background-color: white;
   flex-direction: column;
   z-index: 1000;
@@ -100,9 +99,8 @@ img {
   color: #000000;
 }
 
-.hero img {
-  width: 100%;
-  height: 30rem;
+.m-hero{
+  width: 100%; 
 }
 .hero-txt h1 {
   color: #000000;
@@ -137,30 +135,44 @@ img {
 }
 
 .top-container {
-  border: 1px solid black;
+  
   width: 60.5rem;
   margin: auto;
   height: 25rem;
+  margin-top: 2rem;
+
 }
 
 .top-heading {
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 60.5rem;
-
   margin: auto;
 }
-.heading-div {
-  border: 1px solid green;
+
+.heading-div h4 {
+  font-size: 22px;
+  color: #000000;
+}
+
+.heading-div p {
+  font-size: 10px;
+  margin-top: 7px;
+  color: #555555;
 }
 .h-btn {
-  border: 1px solid yellow;
+  border-radius: 15px;
+}
+.h-btn button {
+  font-size: 15px;
+  border-radius: 15px;
+  height: 3rem;
+  padding: 5px;
+  border: 1px solid white;
 }
 
 .top-card-container {
-  border: 1px solid yellow;
   margin: auto;
   height: 20;
   display: flex;
@@ -168,14 +180,13 @@ img {
 }
 
 .card {
-  border: 2px solid blue;
-  width: 10rem;
+  border: 2px solid #EAEAEA;
+  width: 11rem;
   height: 9rem;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 
 .card-icon {
-  border: 1px solid red;
   width: 1.8rem;
   margin: auto;
   margin-top: 3rem;
@@ -187,7 +198,6 @@ img {
 }
 
 .card-txt {
-  border: 1px solid red;
   width: 7rem;
   margin: auto;
   margin-top: 3px;
@@ -195,18 +205,21 @@ img {
 
 .card-txt h5 {
   font-size: 11px;
-  border: 1px solid black;
-  width: 5rem;
+  width: 6rem;
   margin: auto;
   color: #000000;
+  text-align: center;
 }
 .card-txt p {
-  border: 1px solid green;
   width: 4rem;
   margin: auto;
   font-size: 10px;
   color: #555555;
+  text-align: center;
 }
+
+
+
 
 @media (max-width: 500px) {
   nav,
@@ -217,15 +230,27 @@ img {
 }
 
 @media (max-width: 360px) {
+
+  
   .top-card-container {
     overflow-x: auto;
     scroll-behavior: smooth;
-    width: 100%;
-    gap: 1rem;
+    gap: 2rem;
   }
-
-  .top-container,
+  .heading-div h4 {
+    font-size: 15px;
+  }
+  .heading-div p {
+    font-size: 10px;
+  }
+  .h-btn button {
+    font-size: 7px;
+    font-weight: bold;
+  }
   .top-heading {
+    width: 100%;
+  }
+  .top-container {
     width: 90%;
   }
 }
@@ -237,9 +262,10 @@ img {
     width: 100%;
     gap: 1rem;
   }
-
-  .top-container,
   .top-heading {
+    width: 100%;
+  }
+  .top-container {
     width: 90%;
   }
 }
@@ -250,9 +276,7 @@ img {
     width: 100%;
     gap: 1rem;
   }
-
-  .top-container,
-  .top-heading {
+  .top-container {
     width: 50%;
   }
 }
@@ -262,6 +286,7 @@ img {
     display: none;
   }
 
+ 
   .list-icon {
     display: contents;
   }
@@ -287,6 +312,11 @@ img {
   .hero-txt p {
     font-size: 8px;
   }
+
+  .card {
+    width: 12rem;
+    height: 7.5rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -305,15 +335,15 @@ img {
     height: 20px;
   }
 }
-
-@media (max-width: 1367px) {
+@media (max-width: 2800px) {
   .hero img {
-    height: 9rem;
+    height: 11rem;
+
   }
 
   .hero-txt {
     width: 9rem;
-    margin-top: -9rem;
+    margin-top: -10rem;
     padding: 5px;
     position: unset;
   }
