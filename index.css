@@ -113,6 +113,7 @@ img {
   width: 25%;
   bottom: 55%;
   left: 10%;
+  
 }
 
 .hero-txt p {
@@ -165,11 +166,12 @@ img {
   border-radius: 15px;
 }
 .h-btn button {
-  font-size: 15px;
+  font-size: 10px;
   border-radius: 15px;
-  height: 3rem;
-  padding: 5px;
+  height: 2rem;
+  padding: 12px;
   border: 1px solid white;
+  
 }
 
 .top-card-container {
@@ -334,13 +336,24 @@ img {
     width: 20px;
     height: 20px;
   }
+
+  .hero-txt {
+    width: 9rem;
+    margin-top: -10rem;
+    padding: 5px;
+    position: unset;
+    margin-left: 4rem;
+  }
+
+ 
+
 }
 @media (max-width: 2800px) {
   .hero img {
     height: 11rem;
 
   }
-
+  
   .hero-txt {
     width: 9rem;
     margin-top: -10rem;
