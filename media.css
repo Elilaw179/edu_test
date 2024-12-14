@@ -1,0 +1,163 @@
+@media (max-width: 500px) {
+  nav,
+  .reg,
+  .slash {
+    display: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .top-card-container,
+  .feature-card-container {
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 2rem;
+  }
+
+  .heading-div h4,
+  .feat-txt h4 {
+    font-size: 15px;
+  }
+  .heading-div p,
+  .feat-txt p {
+    font-size: 10px;
+  }
+  .h-btn button,
+  .feat-btn button {
+    font-size: 7px;
+    font-weight: bold;
+  }
+  .top-heading,
+  .feature-heading {
+    width: 100%;
+  }
+  .top-container,
+  .feature-container {
+    width: 90%;
+  }
+  .ft-card {
+    width: 20rem;
+  }
+}
+
+@media (min-width: 360px) {
+  .top-card-container,
+  .feature-card-container {
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .top-heading,
+  .feature-heading {
+    width: 100%;
+  }
+  .top-container,
+  .feature-container {
+    width: 90%;
+  }
+}
+@media (min-width: 1280px) {
+  .top-card-container,.feature-card-container {
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 100%;
+    gap: 1rem;
+  }
+  .top-container,
+  .feature-container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 540px) {
+  nav {
+    display: none;
+  }
+
+  .list-icon {
+    display: contents;
+  }
+
+  .hero-txt {
+    width: 7rem;
+    margin-top: -9rem;
+    padding: 5px;
+    position: unset;
+  }
+
+  .hero-txt-btn {
+    padding: 5px;
+    width: 4rem;
+    border-radius: 25px;
+    border: 1px solid #ff782d;
+    font-size: 7px;
+  }
+
+  .hero-txt h1 {
+    font-size: 10px;
+  }
+  .hero-txt p {
+    font-size: 8px;
+  }
+
+  .card {
+    width: 12rem;
+    height: 7.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  nav a,
+  .search-container a {
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .search-container {
+    width: 7.5rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .search-container img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .hero-txt {
+    width: 9rem;
+    margin-top: -10rem;
+    padding: 5px;
+    position: unset;
+    margin-left: 1.5rem;
+  }
+}
+@media (max-width: 2800px) {
+  .hero img {
+    height: 11rem;
+  }
+
+  .hero-txt {
+    width: 9rem;
+    margin-top: -10rem;
+    padding: 5px;
+    position: unset;
+  }
+
+  .hero-txt-btn {
+    padding: 5px;
+    width: 4rem;
+    border-radius: 25px;
+    border: 1px solid #ff782d;
+    font-size: 7px;
+  }
+
+  .hero-txt h1 {
+    font-size: 10px;
+  }
+  .hero-txt p {
+    font-size: 8px;
+  }
+
+}
