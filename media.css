@@ -109,6 +109,7 @@
   .card {
     width: 12rem;
     height: 7.5rem;
+   
   }
 }
 
@@ -136,11 +137,10 @@
     position: unset;
     margin-left: 1.5rem;
   }
-  
-  .feature-card-container{
-    gap: 3rem;
+  .top-card-container,.feature-card-container{
+    gap: 1rem;
   }
-
+  
 }
 @media (max-width: 2800px) {
   .hero img {
