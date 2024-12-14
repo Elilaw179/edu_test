@@ -11,7 +11,11 @@
   .feature-card-container {
     overflow-x: auto;
     scroll-behavior: smooth;
-    gap: 2rem;
+    gap: 3rem;
+  }
+
+  .feature-card-container{
+    gap: 4rem;
   }
 
   .heading-div h4,
@@ -63,7 +67,7 @@
     overflow-x: auto;
     scroll-behavior: smooth;
     width: 100%;
-    gap: 1rem;
+    gap: 2rem;
   }
   .top-container,
   .feature-container {
@@ -132,6 +136,11 @@
     position: unset;
     margin-left: 1.5rem;
   }
+  
+  .feature-card-container{
+    gap: 3rem;
+  }
+
 }
 @media (max-width: 2800px) {
   .hero img {
