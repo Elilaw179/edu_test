@@ -398,6 +398,7 @@ img {
   justify-content: space-between;
   overflow-x: auto;
   overflow-y: hidden;
+  gap: 1rem;
 }
 .counting-container::-webkit-scrollbar{
   width: 0;
@@ -428,11 +429,13 @@ img {
 .count-bx p{
   font-size: 10px;
   font-weight: bold;
+  background-color: red;
  
 }
 .count-bx p, .count-bx h3{
   width: 7rem;
   text-align: center;
+ 
 }
 
 .count-bx p,.count-bx h3{
