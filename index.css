@@ -144,11 +144,9 @@ img {
 .feature-container {
   width: 60.5rem;
   margin: auto;
-  height: 25rem;
+  height: 24.3rem;
   margin-top: 1rem;
 }
-
-
 .top-heading,
 .feature-heading {
   display: flex;
@@ -245,14 +243,14 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center; 
+  
+  margin-top: 0.5rem;
 }
 
 .feature-container{
   height: 48rem;
+  margin-top: 2rem;
 }
-
-
-
 
 .ft-card {
   height: 18rem;
@@ -329,4 +327,71 @@ img {
   border: 1px solid white;
   font-size: 9px;
   font-weight: bold;
+}
+
+
+.lp-ads-container{
+  width: 60.5rem;
+  margin: auto;
+  height:13.2rem;
+  margin-top: 0.5rem;
+  border-radius: 12px;
+}
+
+.lp-ads-container img{
+  width: 100%;
+  height:13rem;
+}
+.lp-txt-box{
+  width: 20.5rem;
+  position: relative;
+  top: -90%;
+  left: 5%;
+}
+
+.lp-btn-div{
+  margin-top: 1.5rem;
+}
+.lp-txt-div p{
+  font-size: 11px;
+  color: #555555;
+  font-weight: bold;
+}
+
+.lp-txt-div h4{
+  font-size: 25px;
+  color: #000000;
+}
+
+.lp-btn-div p{
+  font-size: 12px;
+  color: #555555;
+}
+
+.lp-btn-div button{
+  padding: 7px;
+  border-radius: 20px;
+  font-size: 10px;
+  margin-top: 1rem;
+  background-color: #FF782D;
+  border: 1px solid #FF782D;
+  color: #FFFFFF;
+  cursor: pointer;
+  width: 7rem;
+  height: 2rem;
+  
+}
+
+.counting-container{
+  border: 1px solid blue;
+  width: 60.5;
+  height: 10rem;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.count-bx{
+  border: 1px solid green;
+  width: 10rem;
+  height: 10rem;
 }

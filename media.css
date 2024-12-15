@@ -14,7 +14,7 @@
     gap: 3rem;
   }
 
-  .feature-card-container{
+  .feature-card-container {
     gap: 4rem;
   }
 
@@ -36,7 +36,8 @@
     width: 100%;
   }
   .top-container,
-  .feature-container {
+  .feature-container,
+  .lp-ads-container,.counting-container{
     width: 90%;
   }
   .ft-card {
@@ -58,20 +59,9 @@
     width: 100%;
   }
   .top-container,
-  .feature-container {
+  .feature-container,
+  .lp-ads-container,.counting-container {
     width: 90%;
-  }
-}
-@media (min-width: 1280px) {
-  .top-card-container,.feature-card-container {
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    width: 100%;
-    gap: 2rem;
-  }
-  .top-container,
-  .feature-container {
-    width: 50%;
   }
 }
 
@@ -109,7 +99,6 @@
   .card {
     width: 12rem;
     height: 7.5rem;
-   
   }
 }
 
@@ -137,11 +126,68 @@
     position: unset;
     margin-left: 1.5rem;
   }
-  .top-card-container,.feature-card-container{
+  .top-card-container,
+  .feature-card-container {
     gap: 1rem;
   }
-  
+  .feature-container {
+    margin-top: 2rem;
+  }
+
+  .lp-ads-container {
+    height: 7.2rem;
+  }
+  .lp-ads-container img {
+    height: 7rem;
+  }
+
+  .lp-txt-box {
+    height: 6rem;
+    width: 11rem;
+    top: -95%;
+    left: 4%;
+  }
+
+  .lp-txt-div p {
+    font-size: 7px;
+  }
+
+  .lp-txt-div h4 {
+    font-size: 12px;
+    margin-top: -0.8rem;
+  }
+
+  .lp-btn-div p {
+    font-size: 8px;
+    margin-top: -1.2rem;
+  }
+
+  .lp-btn-div button {
+    border-radius: 20px;
+    font-size: 7px;
+    margin-top: 1rem;
+    width: 5rem;
+    height: 1.5rem;
+    margin-top: 0.5rem;
+  }
 }
+
+@media (min-width: 1280px) {
+  .top-card-container,
+  .feature-card-container {
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: 0;
+    width: 100%;
+    gap: 2rem;
+  }
+  .top-container,
+  .feature-container,
+  .lp-ads-container, .counting-container {
+    width: 50%;
+  }
+}
+
 @media (max-width: 2800px) {
   .hero img {
     height: 11rem;
@@ -168,5 +214,4 @@
   .hero-txt p {
     font-size: 8px;
   }
-
 }

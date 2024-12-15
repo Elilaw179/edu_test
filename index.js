@@ -1,7 +1,3 @@
-
-
-
-
 let list = document.getElementById("list");
 let x = document.getElementById("x");
 let navColumn = document.getElementById("navColumn");
@@ -104,10 +100,6 @@ function renderCards(container, data) {
 renderCards(cardContainer, cardsData);
 renderCards(secondCardContainer, secondCardData);
 
-
-
-
-
 function enableSliding(container, speed = 50) {
   let scrollPosition = 0;
   let isUserScrolling = false;
@@ -115,7 +107,7 @@ function enableSliding(container, speed = 50) {
 
   function slide() {
     if (!isUserScrolling) {
-      scrollPosition += 2; 
+      scrollPosition += 2;
       container.scrollLeft = scrollPosition;
 
       if (scrollPosition >= container.scrollWidth - container.clientWidth) {
@@ -124,20 +116,17 @@ function enableSliding(container, speed = 50) {
     }
   }
 
-
   container.addEventListener("scroll", () => {
     isUserScrolling = true;
     clearTimeout(scrollTimer);
 
     scrollTimer = setTimeout(() => {
       isUserScrolling = false;
-    }, 3000); 
+    }, 3000);
   });
-
 
   setInterval(slide, speed);
 }
 
-
-enableSliding(cardContainer, 50); 
+enableSliding(cardContainer, 50);
 enableSliding(secondCardContainer, 100);
