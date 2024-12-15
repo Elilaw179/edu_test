@@ -144,7 +144,7 @@
   .lp-txt-box {
     height: 6rem;
     width: 11rem;
-    top: -95%;
+    top: -90%;
     left: 4%;
   }
 
@@ -170,6 +170,11 @@
     height: 1.5rem;
     margin-top: 0.5rem;
   }
+
+  .counting-container{
+    gap: 1rem;
+  }
+
 }
 
 @media (min-width: 1280px) {
@@ -186,6 +191,13 @@
   .lp-ads-container, .counting-container {
     width: 50%;
   }
+
+ 
+}
+@media (max-width: 1280px){
+.counting-container{
+  gap: 1rem;
+}
 }
 
 @media (max-width: 2800px) {

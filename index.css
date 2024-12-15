@@ -190,6 +190,10 @@ img {
   justify-content: space-between;
 }
 
+.top-card-container::-webkit-scrollbar{
+  width: 0;
+}
+
 .card:hover {
   background-color: #fdfdfd;
 }
@@ -243,8 +247,11 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center; 
-  
   margin-top: 0.5rem;
+}
+
+.feature-card-container::-webkit-scrollbar{
+  width: 0;
 }
 
 .feature-container{
@@ -259,7 +266,7 @@ img {
 
 }
 .ft-card:hover{
-  border: 0.1px solid #eaeaea;
+  border: 0.1px solid #cccaca;
   box-shadow: #dfdddd;
 }
 
@@ -270,7 +277,6 @@ img {
 
 .ft-card-txt {
   margin-top: 5px;
-
   width: 93%;
   margin: auto;
 }
@@ -305,6 +311,7 @@ img {
   align-items: center;
   width: 95%;
   margin-left: 0.6rem;
+  padding: 2px;
 }
 
 .amount b {
@@ -334,7 +341,7 @@ img {
   width: 60.5rem;
   margin: auto;
   height:13.2rem;
-  margin-top: 0.5rem;
+  margin-top: -3rem;
   border-radius: 12px;
 }
 
@@ -346,7 +353,7 @@ img {
   width: 20.5rem;
   position: relative;
   top: -90%;
-  left: 5%;
+  left: 4%;
 }
 
 .lp-btn-div{
@@ -383,15 +390,51 @@ img {
 }
 
 .counting-container{
-  border: 1px solid blue;
   width: 60.5;
-  height: 10rem;
+  height: 8rem;
   margin: auto;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.counting-container::-webkit-scrollbar{
+  width: 0;
 }
 
 .count-bx{
-  border: 1px solid green;
-  width: 10rem;
-  height: 10rem;
+  width: 12rem;
+  height: 7rem;
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+.count-bx div{
+  margin: auto;
+  width: 8rem;
+  margin-top: 2rem;
+
+}
+
+.count-bx  div p{
+  margin-top: 0.7rem;
+}
+.count-bx h3{
+  font-size: 20px;
+  color: #FF782D;
+}
+
+.count-bx p{
+  font-size: 10px;
+  font-weight: bold;
+ 
+}
+.count-bx p, .count-bx h3{
+  width: 7rem;
+  text-align: center;
+}
+
+.count-bx p,.count-bx h3{
+  margin: auto;
 }
