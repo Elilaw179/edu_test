@@ -105,19 +105,39 @@ renderCards(cardContainer, cardsData);
 renderCards(secondCardContainer, secondCardData);
 
 
+
+
+
 function enableSliding(container, speed = 50) {
   let scrollPosition = 0;
+  let isUserScrolling = false;
+  let scrollTimer;
 
-  setInterval(() => {
-    scrollPosition += 2;
-    container.scrollLeft = scrollPosition;
+  function slide() {
+    if (!isUserScrolling) {
+      scrollPosition += 2; 
+      container.scrollLeft = scrollPosition;
 
-    if (scrollPosition >= container.scrollWidth - container.clientWidth) {
-      scrollPosition = 0;
+      if (scrollPosition >= container.scrollWidth - container.clientWidth) {
+        scrollPosition = 0;
+      }
     }
-  }, speed);
+  }
+
+
+  container.addEventListener("scroll", () => {
+    isUserScrolling = true;
+    clearTimeout(scrollTimer);
+
+    scrollTimer = setTimeout(() => {
+      isUserScrolling = false;
+    }, 3000); 
+  });
+
+
+  setInterval(slide, speed);
 }
 
 
 enableSliding(cardContainer, 50); 
-enableSliding(secondCardContainer, 50);
+enableSliding(secondCardContainer, 100);
