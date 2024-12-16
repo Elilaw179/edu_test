@@ -37,7 +37,7 @@
   }
   .top-container,
   .feature-container,
-  .lp-ads-container,.counting-container{
+  .lp-ads-container,.counting-container,.grow-skill-temp{
     width: 90%;
   }
   .ft-card {
@@ -60,7 +60,7 @@
   }
   .top-container,
   .feature-container,
-  .lp-ads-container,.counting-container {
+  .lp-ads-container,.counting-container ,.grow-skill-temp{
     width: 90%;
   }
 }
@@ -175,6 +175,39 @@
     gap: 1rem;
   }
 
+  .grow-skill-temp{
+    height: 17rem;
+  }
+  .temp-img{
+    width: 50%;
+    height: 17rem;
+  }
+
+  .temp-img img{
+    width: 95%;
+    height: 17rem;
+  }
+  .temp-txt{
+    height: 15rem;
+  }
+  .temp-txt h2{
+    font-size: 10px;
+  }
+.temp-txt p{
+  font-size: 7px;
+  font-weight: 550;
+}
+
+.temp-btn{
+ 
+  font-size: 9px;
+  width: 5rem;
+  margin-top: 1rem;
+  height: 2rem;
+  
+}
+
+
 }
 
 @media (min-width: 1280px) {
@@ -188,7 +221,7 @@
   }
   .top-container,
   .feature-container,
-  .lp-ads-container, .counting-container {
+  .lp-ads-container, .counting-container,.grow-skill-temp {
     width: 50%;
   }
 
