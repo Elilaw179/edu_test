@@ -1,5 +1,5 @@
 
-@media (max-width: 360px) {
+@media (max-width: 360px) { 
   .top-card-container,
   .feature-card-container {
     overflow-x: auto;
@@ -7,6 +7,9 @@
     gap: 3rem;
   }
 
+  .feature-container{
+    margin-top: -1rem;
+  }
   .feature-card-container {
     gap: 4rem;
   }
@@ -30,61 +33,35 @@
   }
   .top-container,
   .feature-container,
-  .lp-ads-container,.counting-container,.grow-skill-temp,.word-p-container{
+  .lp-ads-container,.counting-container,.grow-skill-temp,.word-p-container,
+  .feed-back-container,.let-start-container, .latest-container{
     width: 90%;
   }
   .ft-card {
     width: 20rem;
   }
- 
-
-  .word-p-container {
-    height: 8rem;
-  }
-
-  .word-p-container img {
-    height: 8rem;
-    width: 100%;
-  }
-  .word-p {
-    width: 10rem;
-  }
-  .word-p p {
-    font-size: 7px;
-  }
-  .word-p h3 {
-    margin-top: 0.5rem;
-    font-size: 11px;
-    font-weight: 550;
-  }
-
-  .word-btn div{
-    width: 4.4rem;
-    margin-top: 0.4rem;
-    left: 35%;
-  }
-
-  .word-btn button {
-    padding: 10px;
-    border-radius: 17px;
-    background-color: #ff782d;
-    border: none;
-    color: white;
-    font-size: 7px;
-  }
-
-  .word-btn div button{
-    font-size: 7px
-  }
   
-  .word-div {
-    width: 90%;
+  .word-btn div button{
+    font-size: 7px;
+    margin-top: -1rem;
   }
-  .word-span {
-    position:relative ;
-    top: -110%;
-    left: 6%;
+
+  .fb-heading{
+    width: 100%;
+    font-size: 11px;
   }
+  .fb-heading h3{
+    font-size: 15px;
+  }
+
+  .students-fb{
+    gap: 1rem;
+  }
+  .st-fb-box{
+    padding: 7px; 
+  }
+
+
 }
 
 @media (min-width: 360px) {
@@ -102,7 +79,8 @@
   }
   .top-container,
   .feature-container,
-  .lp-ads-container,.counting-container ,.grow-skill-temp,.word-p-container{
+  .lp-ads-container,.counting-container ,.grow-skill-temp,.word-p-container,
+  .feed-back-container, .let-start-container, .latest-container{
     width: 90%;
   }
   
@@ -150,6 +128,9 @@
     width: 12rem;
     height: 7.5rem;
   }
+  .feature-container{
+    margin-top: -0.5rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -179,9 +160,6 @@
   .top-card-container,
   .feature-card-container {
     gap: 1rem;
-  }
-  .feature-container {
-    margin-top: -1rem;
   }
 
   .lp-ads-container {
@@ -256,6 +234,29 @@
   height: 1.7rem;
   
 }
+.fb-heading{
+  width: 100%;
+}
+.fb-heading h3{
+  font-size: 18px;
+}
+.fb-heading p{
+  font-size: 11px;
+}
+
+.students-fb{
+  gap: 1rem;
+}
+.st-name p{
+  font-size: 11.5px;
+}
+
+.st-fb-box{
+  padding: 7px; 
+}
+.let-start-container , .let-start-container img{
+  height: 7rem;
+}
 
 } 
 
@@ -271,10 +272,12 @@
   .top-container,
   .feature-container,
   .lp-ads-container, .counting-container,.grow-skill-temp,
-  .word-p-container {
+  .word-p-container, .feed-back-container, .let-start-container, .latest-container{
     width: 50%;
   }
 
+ 
+  
  
 }
 @media (max-width: 1280px){
@@ -283,42 +286,51 @@
 }
 .word-span {
   position: relative;
-  top: -100%;
-  left:1%;
+  top: -95%;
+  left:-1%;
 }
-.word-p-container {
-  height: 10rem;
-}
+
 .word-div {
-  width: 100%;
-  height: 10rem;
+  width: 80%;
+  margin-top: -8rem;
+  margin-left: 10%
 }
 .word-btn button {
   font-size: 10px;
+ 
 }
 .word-p-container img {
-  height: 10rem;
+  height: 7rem;
 }
 
 .word-p p{
   margin-top: 1rem;
+  font-size: 6px;
 }
 .word-p h3 {
-  margin-top:1rem;
-  font-size: 18px;
-  font-weight: 550;
+  font-size: 12px;
+  margin-top: 1rem;
 }
 .word-btn p {
   font-size: 7px;
   color: #555555;
-  width: 50%;
+  width: 80%;
   margin-left: 25% ;
   margin-top: -1rem;
 }
 
+.feed-back-container{
+  margin-top: 2rem;
 }
 
-@media (max-width: 2800px) {
+.let-start-container , .let-start-container img{
+  height: 7rem;
+  margin-top: 0.5rem;
+}
+
+}
+
+@media (max-width: 1920px) {
   .hero img {
     height: 11rem;
   }
@@ -343,5 +355,9 @@
   }
   .hero-txt p {
     font-size: 8px;
+  }
+
+  .students-fb{
+    gap: 1rem;
   }
 }
