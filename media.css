@@ -5,9 +5,9 @@
     overflow-x: auto;
     scroll-behavior: smooth;
     gap: 3rem;
-
-
   }
+
+ 
 
   .feature-container{
     margin-top: -1rem;
@@ -101,6 +101,15 @@
 
 
 @media (max-width: 540px) {
+ 
+  .footer-container{
+    gap: 2rem;
+    
+   }
+ 
+   .footer-container h5{
+     font-size: 0.5rem;
+   }
   nav {
     display: none;
   }
@@ -279,6 +288,8 @@
   font-size: 8px;
   margin-top: 0.1rem;
 }
+
+
 
 } 
 

@@ -712,8 +712,9 @@ img {
 
 
 footer{
-  height: 17rem;
+  height: 21rem;
   background-color: #F5F5F5;
+  border: 1px solid blue
 }
 
 .footer-container{
@@ -722,6 +723,8 @@ footer{
   display: flex;
   justify-content: space-between;
   overflow-x: auto;
+  margin-top: 3rem;
+  border: 1px solid red;
 }
 .footer-container::-webkit-scrollbar{
   width: 0;
@@ -750,7 +753,7 @@ padding: 5px;
 
 .contact-box{
   width: 14rem;
-  padding: 10px;
+
 }
 
 .contact-box p{
