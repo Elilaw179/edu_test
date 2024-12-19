@@ -714,7 +714,7 @@ img {
 footer{
   height: 21rem;
   background-color: #F5F5F5;
-  border: 1px solid blue
+ 
 }
 
 .footer-container{
@@ -724,7 +724,7 @@ footer{
   justify-content: space-between;
   overflow-x: auto;
   margin-top: 3rem;
-  border: 1px solid red;
+
 }
 .footer-container::-webkit-scrollbar{
   width: 0;
@@ -739,7 +739,7 @@ footer{
 }
 .help-box div p{
 font-size: 10px;
-padding: 5px;
+
 }
 
 .program-box{
@@ -747,7 +747,7 @@ padding: 5px;
 
 }
 .program-box div{
-  padding: 5px;
+ 
   font-size: 10px;
 }
 
