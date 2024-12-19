@@ -597,6 +597,7 @@ img {
   word-spacing: 3px;
   color: #000000;
   font-weight: 100;
+  padding: 5px;
 }
 .st-name p{
   margin-top: 0.5rem;
@@ -645,6 +646,7 @@ img {
 .latest-txt p{
   color: #555555;
   font-size: 12px;
+  margin-top: 10px;
 }
 
 .latest-btn{
@@ -700,7 +702,7 @@ img {
 
 .latest-txt-box h5{
   font-size: 13px;
-  font-weight: lighter;
+  font-weight: light;
 }
 .latest-txt-box p{
   color: #555555;
@@ -709,3 +711,68 @@ img {
 }
 
 
+footer{
+  height: 17rem;
+  background-color: #F5F5F5;
+}
+
+.footer-container{
+  margin: auto;
+  height: 15rem;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+}
+.footer-container::-webkit-scrollbar{
+  width: 0;
+}
+.edu-box{
+  width: 15rem;
+  font-size: 10px;
+}
+
+.help-box{
+  width: 6rem;
+}
+.help-box div p{
+font-size: 10px;
+padding: 5px;
+}
+
+.program-box{
+  width: 7rem;
+
+}
+.program-box div{
+  padding: 5px;
+  font-size: 10px;
+}
+
+.contact-box{
+  width: 14rem;
+  padding: 10px;
+}
+
+.contact-box p{
+  font-size: 11px;
+
+}
+
+
+.copy-right-container{
+  margin: auto;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 11px;
+}
+
+.contact-img{
+  height: 1rem;
+}
+
+.footer-container p:hover{
+  color: #FF782D;
+}
+.footer-container p{
+  color: #555555;
+}

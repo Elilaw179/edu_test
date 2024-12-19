@@ -5,6 +5,8 @@
     overflow-x: auto;
     scroll-behavior: smooth;
     gap: 3rem;
+
+
   }
 
   .feature-container{
@@ -34,7 +36,8 @@
   .top-container,
   .feature-container,
   .lp-ads-container,.counting-container,.grow-skill-temp,.word-p-container,
-  .feed-back-container,.let-start-container, .latest-container{
+  .feed-back-container,.let-start-contain
+   .latest-container, .footer-container, .copy-right-container{
     width: 90%;
   }
   .ft-card {
@@ -79,8 +82,10 @@
   .top-container,
   .feature-container,
   .lp-ads-container,.counting-container ,.grow-skill-temp,.word-p-container,
-  .feed-back-container, .let-start-container, .latest-container{
+  .feed-back-container, .let-start-container, 
+  .latest-container,.footer-container, .copy-right-container{
     width: 90%;
+  
   }
   
 }
@@ -92,6 +97,9 @@
     display: none;
   }
 }
+
+
+
 @media (max-width: 540px) {
   nav {
     display: none;
@@ -317,7 +325,7 @@
   .feature-container,
   .lp-ads-container, .counting-container,.grow-skill-temp,
   .word-p-container, .feed-back-container, .let-start-container,
-   .latest-container{
+   .latest-container, .footer-container, .copy-right-container{
     width: 50%;
   }
 
@@ -372,6 +380,10 @@
   height: 7rem;
   margin-top: 0.5rem;
 }
+}
+
+.copy-right-container{
+  font-size: 10px;
 }
 
 @media (max-width: 1920px) {
