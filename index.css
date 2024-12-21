@@ -714,17 +714,19 @@ img {
 footer{
   height: 21rem;
   background-color: #F5F5F5;
- 
+  width: 100%;
+  border: 1px solid #F5F5F5;;
 }
 
 .footer-container{
+
   margin: auto;
   height: 15rem;
   display: flex;
   justify-content: space-between;
   overflow-x: auto;
-  margin-top: 3rem;
-
+  margin-top: 4rem;
+  border: 1px solid #F5F5F5;;
 }
 .footer-container::-webkit-scrollbar{
   width: 0;
@@ -736,9 +738,10 @@ footer{
 
 .help-box{
   width: 6rem;
+  
 }
 .help-box div p{
-font-size: 10px;
+font-size: 12px;
 
 }
 
@@ -764,9 +767,8 @@ font-size: 10px;
 
 .copy-right-container{
   margin: auto;
-  margin-top: 1rem;
   text-align: center;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .contact-img{
@@ -778,4 +780,5 @@ font-size: 10px;
 }
 .footer-container p{
   color: #555555;
+  font-size: 12px;
 }

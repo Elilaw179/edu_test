@@ -1,3 +1,5 @@
+
+
 let list = document.getElementById("list");
 let x = document.getElementById("x");
 let navColumn = document.getElementById("navColumn");
@@ -10,10 +12,13 @@ x.addEventListener("click", () => {
   navColumn.classList.remove("active");
 });
 
+
+
+
 function topCardContainer(icon, tag, courses) {
   return `<div class="card">
             <div class="card-icon">
-              <img src="${icon}" alt="" />
+              <img src="${icon}" alt="icon" />
             </div>
             <div class="card-txt"> 
               <h5>${tag}</h5> 
