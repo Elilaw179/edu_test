@@ -3,11 +3,12 @@
   .top-card-container,
   .feature-card-container {
     overflow-x: auto;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    gap: 3rem;
+    
+  
   }
-
- 
 
   .feature-container{
     margin-top: -1rem;
@@ -41,7 +42,9 @@
     width: 90%;
   }
   .ft-card {
-    width: 20rem;
+    display: inline-block;
+    scroll-snap-align: start;
+    flex: 0 0 97%;
   }
   
   .word-btn div button{
@@ -324,14 +327,13 @@
   }
 }
 @media (min-width: 1280px) {
-  .top-card-container,
+  /* .top-card-container,
   .feature-card-container {
     overflow-x: auto;
     scroll-behavior: smooth;
-    scrollbar-width: 0;
     width: 100%;
     gap: 2rem;
-  }
+  } */
   .top-container,
   .feature-container,
   .lp-ads-container, .counting-container,.grow-skill-temp,
