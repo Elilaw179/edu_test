@@ -96,6 +96,10 @@
   .program-box,.edu-box,.help-box,.program-box,.contact-box{
     width: 100%;
   }
+  .latest-txt-box p{
+    font-size: 9px;
+   
+  }
 
 }
 
