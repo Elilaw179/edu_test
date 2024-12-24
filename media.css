@@ -85,6 +85,14 @@
     overflow-x: none;
   }
 
+  .latest-card-slider{
+   margin-top: -0.5rem;
+  }
+
+  footer{
+    margin-top: -2rem;
+  }
+
   .program-box,.edu-box,.help-box,.program-box,.contact-box{
     width: 100%;
   }
@@ -299,14 +307,6 @@
 .latest-txt-box h5{
   font-size: 9px;
 }
-
-.latest-txt-box p{
-  color: #555555;
-  font-size: 8px;
-  margin-top: 0.1rem;
-  font-weight: bold;
-}
-
 
 
 } 
