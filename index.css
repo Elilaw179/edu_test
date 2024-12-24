@@ -265,10 +265,12 @@ width: 0;
   height: 18rem;
   width: 100%;
   border-radius: 10px;
+  box-shadow: 0 0 10px rgb(223, 221, 221) ;
+  
 }
 .ft-card:hover {
-  border: 0.1px solid #cccaca;
-  box-shadow: #dfdddd;
+  border: 1px solid #cccaca;
+ 
 }
 
 .ft-card img {
@@ -289,7 +291,7 @@ width: 0;
 
 .ft-card-txt h5 {
   margin-top: 5px;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .ft-card-txt h5:hover,
@@ -440,7 +442,6 @@ width: 0;
 
 .grow-skill-temp {
   width: 60.5rem;
-  height: 20rem;
   margin: auto;
   margin-top: 2rem;
   display: flex;
@@ -676,6 +677,7 @@ width: 0;
   gap: 1rem;
   overflow-x: auto;
   align-items: center;
+  scroll-behavior: smooth;
 }
 .latest-card-slider::-webkit-scrollbar{
   width: 0;
@@ -684,6 +686,7 @@ width: 0;
 .latest-card{
   width: 17.5rem;
   border-radius: 10px;
+  box-shadow: 0 0 10px rgb(223, 221, 221) ;
 }
 .latest-card img{
   width: 100%;
@@ -722,7 +725,6 @@ footer{
 }
 
 .footer-container{
-
   margin: auto;
   height: 15rem;
   display: flex;
@@ -772,6 +774,7 @@ font-size: 12px;
   margin: auto;
   text-align: center;
   font-size: 12px;
+  margin-top: -1.5rem;
 }
 
 .contact-img{

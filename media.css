@@ -1,7 +1,7 @@
 
-@media (max-width: 360px) { 
+@media (max-width: 460px) { 
   .top-card-container,
-  .feature-card-container {
+  .feature-card-container ,  .latest-card-slider{
     overflow-x: auto;
     white-space: nowrap;
     scroll-snap-type: x mandatory;
@@ -37,14 +37,15 @@
   .top-container,
   .feature-container,
   .lp-ads-container,.counting-container,.grow-skill-temp,.word-p-container,
-  .feed-back-container,.let-start-contain
+  .feed-back-container,.let-start-container
    .latest-container, .footer-container, .copy-right-container{
     width: 90%;
   }
-  .ft-card {
+  .ft-card,.latest-card {
     display: inline-block;
     scroll-snap-align: start;
     flex: 0 0 97%;
+   
   }
   
   .word-btn div button{
@@ -65,6 +66,27 @@
   }
   .st-fb-box{
     padding: 7px; 
+  }
+  .grow-skill-temp {
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+.temp-img, .temp-txt{
+  width: 100%;
+ 
+}
+
+  .footer-container{
+    height: 35rem;
+    display:block;
+    text-align: center;
+    overflow-x: none;
+  }
+
+  .program-box,.edu-box,.help-box,.program-box,.contact-box{
+    width: 100%;
   }
 
 }
@@ -88,7 +110,6 @@
   .feed-back-container, .let-start-container, 
   .latest-container,.footer-container, .copy-right-container{
     width: 90%;
-  
   }
   
 }
@@ -221,14 +242,7 @@
   .counting-container{
     gap: 1rem;
   }
-
-  .grow-skill-temp{
-    height: 17rem;
-  }
-  .temp-img{
-    width: 50%;
-    height: 17rem;
-  }
+ 
 
   .temp-img img{
     width: 95%;
@@ -238,10 +252,10 @@
     height: 15rem;
   }
   .temp-txt h2{
-    font-size: 10px;
+    font-size: 17px;
   }
 .temp-txt p{
-  font-size: 7px;
+  font-size: 10px;
   font-weight: 550;
 }
 
@@ -290,6 +304,7 @@
   color: #555555;
   font-size: 8px;
   margin-top: 0.1rem;
+  font-weight: bold;
 }
 
 
@@ -393,11 +408,12 @@
   height: 7rem;
   margin-top: 0.5rem;
 }
-}
-
 .copy-right-container{
   font-size: 10px;
 }
+}
+
+
 
 @media (max-width: 1920px) {
   .hero img {
